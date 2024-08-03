@@ -1,0 +1,47 @@
+*{
+    background-color: rgb(127, 224, 110);
+    padding: 0;
+    margin: 0;
+    
+}
+h2{
+    text-align: center;
+    color:rgb(81, 8, 38);
+    font-size: 40px;
+    animation: animate  2s  linear infinite;
+}
+@keyframes animate{
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 0.5;
+    }
+    50%{
+        opacity: 0.7;
+    }
+    100%{
+        opacity: 0;
+    }
+    
+}
+#msg{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#board{
+  
+    border: 6px solid;
+   
+}
+#score{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
